@@ -22,3 +22,7 @@ img {
 h1 {
   font-weight: bold;
 }
+
+.item-width{
+  width: 350px;
+}
