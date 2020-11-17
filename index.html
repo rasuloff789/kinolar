@@ -16,10 +16,30 @@
       Kinolar ro'yhati
     </h1>
     
-    <ul class="list-unstyled  d-flex justify-content-around flex-wrap js-movies-list "> 
+    <ul class="list-unstyled  d-flex justify-content-around flex-wrap js-movies-list"> 
     </ul>
     
   </div>
+  
+  <template id="movie">
+    <li  class="movie list-group-item flex-shrink-0 d-flex flex-column overflow-hidden item-width my-2">
+      <div class="d-flex align-items-center">
+        <span class="h5 mb-0 mr-2 flex-shrink-0">Kino nomi : </span>
+        <p class="movie-title h5 text-dark mb-0 text-truncate" title=""></p>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="mr-1">Sanasi : </span>
+        <p class="movie-year small text-dark mb-0">2010</p>
+      </div>
+      <div class="d-flex">
+        <span class="flex-shrink-0 mr-2">Genre : </span>
+        <div class="movie-genre text-truncate"></div>
+      </div>
+      <p class="h3 text-dark">Actors</p>
+      <ul class="actors-list list-group">
+      </ul>
+    </li>
+  </template>
   
   <script src="js/util.js"></script>
   <script src="js/jquery-3.5.1.min.js"></script>
